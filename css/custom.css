@@ -1,0 +1,210 @@
+/* Shared
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.button {
+  border-radius: 100px;
+}
+
+/* Sections
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.section {
+  padding: 8rem 0 7rem;
+  text-align: center;
+}
+.section-heading,
+.section-description {
+  margin-bottom: 1.2rem;
+}
+
+/* Values
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.values {
+  background-image: url('../images/fall.jpg');
+  background-size: cover;
+  color: #fff;
+  padding-bottom: 5rem;
+}
+.value-multiplier {
+  margin-bottom: .5rem;
+  color: #11DFC7;
+}
+.value-heading {
+  margin-bottom: .3rem;
+}
+.value-description {
+  opacity: .8;
+  font-weight: 300;
+}
+
+/* Help
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.get-help {
+  border-bottom: 1px solid #ddd;
+}
+
+.space {
+  height: 40rem;
+}
+
+/* Categories
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.categories {
+  background-image: url('../images/dusk_lucerne.jpg');
+  background-size: cover;
+  height: 60rem;
+  color: #fff;
+}
+.categories .section-description { 
+  margin-bottom: 4rem;
+}
+
+
+/* Fixed Background
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.cd-fixed-bg {
+  min-height: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+ 
+.cd-fixed-bg.cd-bg-1 {
+  color: white;
+  background-image: url("../images/dusk_lucerne.jpg");
+}
+
+.cd-scrolling-bg {
+  min-height: 100%;
+}
+
+.picture {
+  width: 100%; 
+  background: url("../images/connie_back.jpg");
+  background-size: cover;
+  padding-bottom:133%;
+}
+
+/* Video Sizing
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.video-container {
+  position:relative;
+  padding-bottom:56.25%;
+  padding-top:30px;
+  height:0;
+  overflow:hidden;
+}
+
+.video-container iframe{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+}
+
+/* Navigation Bar
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.navbar,
+.navbar-spacer {
+  margin-top: 10rem;
+  display: block;
+  width: 100%;
+  /*height: 6.5rem;*/
+  /*background: #fff;*/
+  z-index: 99;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee; 
+}
+.navbar-spacer {
+  display: none; 
+}
+.navbar > .nav-container {
+  width: 100%; 
+}
+.navbar-list {
+  list-style: none;
+  margin-bottom: 0; 
+  text-align: center;
+}
+.navbar-item {
+  position: relative;
+  margin-bottom: 0; 
+  display: inline-block;
+}
+.navbar-link {
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: .2rem;
+  margin-right: 35px;
+  text-decoration: none;
+  line-height: 6.5rem;
+  color: #222; 
+}
+.navbar-link.active {
+  color: #33C3F0; 
+}
+.has-docked-nav .navbar {
+  margin-top: 0;
+  position: fixed;
+  top: 0;
+  left: 0; 
+  background: #fff;
+}
+.has-docked-nav .navbar-spacer {
+  display: block; 
+  }
+
+/* Bigger than 550 */
+@media (min-width: 550px) {
+  .section {
+    padding: 12rem 0 11rem;
+  }
+  .intro {
+    padding-bottom: 12rem;
+  }
+  .intro-heading {
+    font-size: 2.5rem;
+  }
+}
+
+/* Bigger than 750 */
+@media (min-width: 750px) {
+  .intro {
+    height: 190px;
+  }
+  .intro-heading {
+    font-size: 3rem;
+  }
+  .section {
+    padding: 14rem 0 15rem;
+  }
+  .intro {
+    padding: 16rem 0 14rem;
+  }
+  .section-description {
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .categories {
+    padding: 15rem 0 8rem;
+  }
+}
+
+/* Bigger than 1000 */
+@media (min-width: 1000px) {
+  .section {
+    padding: 20rem 0 19rem;
+  }
+  .intro {
+    padding: 22rem 0;
+  }
+  .intro-heading {
+    font-size: 5.0rem;
+  }
+}
+
+
+
