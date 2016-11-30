@@ -17,12 +17,6 @@
 
 /* Values
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.values {
-  background-image: url('../images/fall.jpg');
-  background-size: cover;
-  color: #fff;
-  padding-bottom: 5rem;
-}
 .value-multiplier {
   margin-bottom: .5rem;
   color: #11DFC7;
@@ -33,28 +27,6 @@
 .value-description {
   opacity: .8;
   font-weight: 300;
-}
-
-/* Help
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-.get-help {
-  border-bottom: 1px solid #ddd;
-}
-
-.space {
-  height: 40rem;
-}
-
-/* Categories
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-.categories {
-  background-image: url('../images/dusk_lucerne.jpg');
-  background-size: cover;
-  height: 60rem;
-  color: #fff;
-}
-.categories .section-description { 
-  margin-bottom: 4rem;
 }
 
 
@@ -69,8 +41,10 @@
 }
  
 .cd-fixed-bg.cd-bg-1 {
-  color: white;
+  width: 100%; 
   background-image: url("../images/dusk_lucerne.jpg");
+  background-size: cover;
+  padding-bottom:20%;
 }
 
 .cd-scrolling-bg {
@@ -83,6 +57,27 @@
   background-size: cover;
   padding-bottom:133%;
 }
+
+
+
+/* Contact Section
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.question {
+  color: white;
+  text-shadow: 0 0 8px #000;
+  margin-top: 200px;
+}
+
+.contact-info {
+  margin: 20px 15px 0 15px; 
+  font-size: 3rem; 
+  color: #fff;
+  text-shadow: 0 0 4px #000;
+  text-transform: lowercase;
+  text-decoration: none; 
+  font-weight: 600;
+}
+
 
 /* Video Sizing
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -188,9 +183,6 @@
     margin-left: auto;
     margin-right: auto;
   }
-  .categories {
-    padding: 15rem 0 8rem;
-  }
 }
 
 /* Bigger than 1000 */
@@ -205,6 +197,3 @@
     font-size: 5.0rem;
   }
 }
-
-
-
